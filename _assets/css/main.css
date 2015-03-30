@@ -1,0 +1,122 @@
+ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align:baseline;
+font: inherit;
+}
+
+body {
+     width: 1440px;
+}
+h1 {
+    font-size: 30px;
+    font-family: Arial;
+    float: left;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+nav {
+    padding-top: 20px;
+    float: right;
+    padding-right: 200px;
+}
+
+
+h2 {
+font-size: 44px;
+    font-family: Arial; serif;
+}
+
+.mountain h2 {
+    padding-top: 350px;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+header {
+    width: 1440px;
+    height: 80px;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    font-size: 14px;
+    font-weight: normal;
+}
+.button {
+    font-color: #f7fdfe;
+    width: 124px;
+    height: 40px;
+    background-color: #0ebfdd
+}
+.mountain {
+    background: url(../images/mountains.jpg);
+    height: 600px;
+    color: #f7fdfe;
+    font-family: cursive; serif;
+    text-align: center;
+}
+.mountain p {
+    margin-top: 10px;
+    width: 804px;
+    height: 49px;
+    margin-left: 300px;
+}
+.about {
+    background-color: #ffffff;
+    height: 250px;
+    font-family: cursive; serif;
+    text-align: center;
+}
+.about h2 {
+    color: #0ebfdd;
+    padding-top: 50px;
+}
+.about p {
+    margin-top: 10px;
+    width: 804px;
+    height: 48px;
+    margin-left: 300px;
+}
+.team {
+    background-color: #0ebfdd;
+    height: 600px;
+    font-family: cursive; serif;
+    text-align: center;
+    color: #ffffff
+}
+.team h2 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.team img {
+    padding-bottom: 75px;
+}
+.team p {
+    padding-top: 25px;
+}
+#map-canvas {
+        width: 1440px;
+        height: 600px;
+      }
+footer {
+    height: 120px;
+    background-color: #45494d;
+    font-family: Arial; serif;
+}
+.top {
+    padding-left: 200px;
+    padding-top: 25px;
+}
+.pics {
+    float: right;
+    padding-right: 200px;
+}
+.realFoot {
+    float: right;
+    padding-top: 50px;
+}

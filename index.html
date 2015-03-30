@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Logo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="_assets/css/main.css" rel="stylesheet" type="text/css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</script>
+    </head>
+    <header>
+        <h1>LOGO</h1>
+        <nav>
+        <a href="">Label</a>&#160;&#160;&#160;&#160;&#160;
+        <a href="">Label</a>&#160;&#160;&#160;&#160;&#160;
+        <a href="">Label</a>&#160;&#160;&#160;&#160;&#160;
+            <div class="button"><a href="">Sign In</a></div>
+         </nav>
+        </header>
+        <section>
+            <div class="mountain">
+        <h2>Our Mission</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+            </div>
+            <div class="about">
+            <h2>About</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+            </div>
+            <div class="team">
+            <h2>Team</h2>
+                <img src="_assets/images/team1.png">
+                <img src="_assets/images/team2.png">
+                <img src="_assets/images/team3.png">
+               <p><a href="">Work With Us</a></p>
+            </div>
+            <div id="map-canvas"></div>
+        </section>
+<footer>
+    <div class="top">
+<a href="">ABOUT</a>&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    <a href="">FAQ</a>&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    <a href="">WORK WITH US</a>
+    </div>
+    <div class="pics">
+    <img src="_assets/images/mail.png" href="email.com">
+    <img src="_assets/images/facebook.png" href="facebook.com">
+    <img src="_assets/images/tweet.png" href="twitter.com">
+    </div>
+    <div class="realFoot">
+    <a href="">Privacy Policy</a>
+    <a href="">Terms and Conditions</a>&#160;|&#160;
+    &copy; Company LLC 2015
+    </div>
+</footer>
+    </head>
+</html>
