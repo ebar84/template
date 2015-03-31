@@ -22,7 +22,14 @@ nav {
     padding-right: 200px;
 }
 
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
 h2 {
 font-size: 44px;
     font-family: Arial, serif;
@@ -91,11 +98,11 @@ header {
     padding-top: 50px;
     padding-bottom: 60px;
 }
-.team img {
+.team-images {
     padding-bottom: 75px;
 }
 .team p {
-    padding-top: 25px;
+    padding-top: 60px;
 }
 #map-canvas {
         height: 600px;
@@ -106,16 +113,23 @@ footer {
     font-family: Arial, serif;
 }
 .top {
+    float: left;
     padding-left: 200px;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 .pics {
     float: right;
     padding-right: 200px;
+    padding-top: 25px;
+}
+.foot {
+    overflow: hidden;
 }
 .realFoot {
-    float: right;
-    padding-top: 50px;
+    text-align: right;
+    clear: both;
+    padding-top: 20px;
+    padding-right: 200px;
 }
 
 .test{
