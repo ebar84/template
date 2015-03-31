@@ -7,7 +7,6 @@ font: inherit;
 }
 
 body {
-     width: 1440px;
 }
 h1 {
     font-size: 30px;
@@ -26,7 +25,7 @@ nav {
 
 h2 {
 font-size: 44px;
-    font-family: Arial; serif;
+    font-family: Arial, serif;
 }
 
 .mountain h2 {
@@ -40,7 +39,6 @@ a:visited {
     color: red;
 }
 header {
-    width: 1440px;
     height: 80px;
     text-align: center;
     font-family: "Myriad Pro Regular";
@@ -57,7 +55,7 @@ header {
     background: url(../images/mountains.jpg);
     height: 600px;
     color: #f7fdfe;
-    font-family: cursive; serif;
+    font-family: cursive, serif;
     text-align: center;
 }
 .mountain p {
@@ -69,7 +67,7 @@ header {
 .about {
     background-color: #ffffff;
     height: 250px;
-    font-family: cursive; serif;
+    font-family: cursive, serif;
     text-align: center;
 }
 .about h2 {
@@ -85,7 +83,7 @@ header {
 .team {
     background-color: #0ebfdd;
     height: 600px;
-    font-family: cursive; serif;
+    font-family: cursive, serif;
     text-align: center;
     color: #ffffff
 }
@@ -100,13 +98,12 @@ header {
     padding-top: 25px;
 }
 #map-canvas {
-        width: 1440px;
         height: 600px;
       }
 footer {
     height: 120px;
     background-color: #45494d;
-    font-family: Arial; serif;
+    font-family: Arial, serif;
 }
 .top {
     padding-left: 200px;
